@@ -29,6 +29,9 @@ module.exports = withAnimations({
       flexBasis: {
         '1/99': "1250px",
       },
+      padding: {
+        '5px': '10 vh'
+      },
       width: {
         600: "600px",
         1250: "1250px",
@@ -42,6 +45,13 @@ module.exports = withAnimations({
         '228': '62rem',
         '128': '42rem',
         '108': '32 rem',
+        '103': '10 vh',
+      },
+      screens: {
+        'xmd': '1300px'
+      },
+      colors: {
+        'deepdeepblue': '#1d1853'
       }
     },
   },
