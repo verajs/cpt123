@@ -48,10 +48,14 @@ module.exports = withAnimations({
         '103': '10 vh',
       },
       screens: {
-        'xmd': '1300px'
+        'xmd': '1450px'
       },
       colors: {
         'deepdeepblue': '#1d1853'
+      },
+      backgroundImage: {
+        "halloween-login": "url('./images/login/loginhalloween.gif')",
+        "journey-login": "url('./images/login/loginjourney.gif')"
       }
     },
   },

@@ -1,15 +1,16 @@
-import logo from "./images/logos/logo1.png";
+import logo from "../images/logos/logo1.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav class="bg-white shadow z-50">
+    <nav class="bg-white shadow z-50 font-fredoka">
       <div class="container px-6 py-4 mx-auto lg:flex lg:justify-between lg:items-center  ">
         <div class="lg:flex lg:items-center">
           <div class="flex items-center justify-between">
             <div class="w-56">
-              <a class="" href="#">
+            <Link to="/">
                 <img src={logo} />
-              </a>
+            </Link>
             </div>
 
             {/* Mobile menu button */}
@@ -36,12 +37,11 @@ const Navbar = () => {
             >
               Annoy Now
             </a>
-            <a
-              href="#"
+            <Link to="features"
               class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 "
             >
               Features
-            </a>
+            </Link>
             <a
               href="#"
               class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 "
@@ -52,9 +52,9 @@ const Navbar = () => {
         </div>
 
         <div class="hidden mt-6 lg:flex lg:mt-0 lg:-mx-2">
-          <button class="rounded-full bg-transparent text-gray-900 font-bold py-1.5 px-3.5 border-2 hover:border-3 hover:border-gray-800 border-gray-300">
-            Register
-          </button>
+          <Link to="/login" class="rounded-full bg-transparent text-gray-900 font-bold py-1.5 px-3.5 border-2 hover:border-3 hover:border-gray-800 border-gray-300">
+            Log In
+          </Link>
         </div>
       </div>
     </nav>
