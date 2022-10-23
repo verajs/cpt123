@@ -8,9 +8,9 @@ const Navbar = () => {
         <div class="lg:flex lg:items-center">
           <div class="flex items-center justify-between">
             <div class="w-56">
-            <Link to="/">
+              <Link to="/">
                 <img src={logo} />
-            </Link>
+              </Link>
             </div>
 
             {/* Mobile menu button */}
@@ -37,22 +37,26 @@ const Navbar = () => {
             >
               Annoy Now
             </a>
-            <Link to="features"
+            <Link
+              to="/features"
               class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 "
             >
               Features
             </Link>
-            <a
-              href="#"
+            <Link
+              to="/about"
               class="mt-2 transition-colors duration-200 transform lg:mt-0 lg:mx-4 hover:text-gray-900 "
             >
               About
-            </a>
+            </Link>
           </div>
         </div>
 
         <div class="hidden mt-6 lg:flex lg:mt-0 lg:-mx-2">
-          <Link to="/login" class="rounded-full bg-transparent text-gray-900 font-bold py-1.5 px-3.5 border-2 hover:border-3 hover:border-gray-800 border-gray-300">
+          <Link
+            to="/login"
+            class="rounded-full bg-transparent text-gray-900 font-light py-1.5 px-3.5 border-2 hover:border-3 hover:border-gray-800 border-gray-300"
+          >
             Log In
           </Link>
         </div>

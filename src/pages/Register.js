@@ -122,9 +122,7 @@ const Register = () => {
                   >
                     Home
                   </Link>
-                  
                 </p>
-                
               </div>
             </div>
           </div>

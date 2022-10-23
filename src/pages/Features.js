@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const Features = () => {
   return (
@@ -42,7 +41,9 @@ const Features = () => {
               time to annoy your friends or create new habits is now.
             </h2>
             <p className="text-base text-white md:text-lg font-fredoka">
-              Use the power of our blazingly fast automated SMS-service to send the most annoying of messages to your friends or get daily reminders for yourself.
+              Use the power of our blazingly fast automated SMS-service to send
+              the most annoying of messages to your friends or get daily
+              reminders for yourself.
             </p>
           </div>
           <div className="flex items-center sm:justify-center">
@@ -127,9 +128,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 w-full">
-
-      </div>
+      <div className="absolute bottom-0 w-full"></div>
     </div>
   );
 };
