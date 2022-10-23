@@ -78,9 +78,9 @@ const About = () => {
           <img className="w-96" src={medjed} />
           <p className="font-fredoka text-white">real image of our CEO</p>
         </div>
-      <div className="lg:h-[700px] lg:w-full lg:bg-red-400 lg:absolute lg:right-0 lg-bottom-0 lg:z-[-1]"></div>
       </div>
         <div className="pb-48"></div>
+      <div className="h-[900px] w-full bg-red-400 absolute z-[-1] top-[1700px] lg:top-[1400px]"></div>
       <Footer />
     </div>
   );
