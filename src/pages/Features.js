@@ -39,11 +39,10 @@ const Features = () => {
                 </svg>
                 <span className="relative">The</span>
               </span>{" "}
-              quick, brown fox jumps over a lazy dog
+              time to annoy your friends or create new habits is now.
             </h2>
             <p className="text-base text-white md:text-lg font-fredoka">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+              Use the power of our blazingly fast automated SMS-service to send the most annoying of messages to your friends or get daily reminders for yourself.
             </p>
           </div>
           <div className="flex items-center sm:justify-center">
@@ -83,7 +82,7 @@ const Features = () => {
               </svg>
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Make it better
+              Animal facts
             </p>
           </div>
           <div className="inline-block p-8 text-center">
@@ -103,7 +102,7 @@ const Features = () => {
               </svg>
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Do it faster
+              Habit reminders
             </p>
           </div>
           <div className="inline-block p-8 text-center">
@@ -123,7 +122,7 @@ const Features = () => {
               </svg>
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Working harder
+              Custom messages
             </p>
           </div>
         </div>
